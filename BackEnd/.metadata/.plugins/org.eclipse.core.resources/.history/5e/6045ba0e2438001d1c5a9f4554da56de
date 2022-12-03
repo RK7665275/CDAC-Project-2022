@@ -1,0 +1,16 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/online_blood_bank?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=7665275
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8InnoDBDialect
+
+spring.jpa.hibernate.ddl-auto=update
+
+spring.mail.host=smtp.gmail.com
+spring.mail.username=sagarpdeshmukh95@gmail.com
+spring.mail.password=iwgotbqjuipoaoao
+
+spring.mail.properties.mail.smtp.auth = true
+spring.mail.properties.mail.smtp.socketFactory.port = 465
+spring.mail.properties.mail.smtp.socketFactory.class = javax.net.ssl.SSLSocketFactory
+spring.mail.properties.mail.smtp.socketFactory.fallback = false
